@@ -11,69 +11,290 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg" id="navbarMainPage">
-        <div class="container-fluid">
-            <a href="" class="navbar-brand"><img src="assets/img/nefa_brand.png" alt=""></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item" id="asd">
-                        <a class="nav-link" aria-current="page" href="#">Cryptocurrency</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Exchanges</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Watchlist</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">NFT</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Products
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">1</a></li>
-                            <li><a class="dropdown-item" href="#">2</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">3</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                <button type="button" class="btn secondaryButton">Log In</button>
-                <button type="button" class="btn primaryButton ">Sign Up</button>
-            </div>
-        </div>
-    </nav>
-
-    <header>
-        <div class="container">
-            <div class="row">
-
-                <div class="col-6">
-                    asd
-                </div>
-                <div class="col-6">
-                    <img src="assets/img/headerimage.png" class="" alt="">
+    <div id="headerBackgroundDiv">
+        <!-- Navigation Section -->
+        <nav class="navbar navbar-expand-lg" id="navbarMainPage">
+            <div class="container-fluid">
+                <a href="" class="navbar-brand"><img src="assets/img/nefa_brand.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item" id="asd">
+                            <a class="nav-link" aria-current="page" href="#">Cryptocurrency</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Exchanges</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Watchlist</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">NFT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Portfolio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Products
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">1</a></li>
+                                <li><a class="dropdown-item" href="#">2</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">3</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <button type="button" class="btn secondaryButton">Log In</button>
+                    <button type="button" class="btn primaryButton ">Sign Up</button>
                 </div>
             </div>
+        </nav>
+        <!-- Header Section -->
+        <header>
+            <div class="container" id="mainHeader">
+                <div class="row">
+                    <div class="col-6 d-flex align-items-center">
+                        <div>
+                            <div id="signUpText"
+                                style="color: linear-gradient(136.91deg, #468EF9 -12.5%, #0C66EE 107.5%);">
+                                SIGNUP TODAY
+                            </div>
+                            <h1 id="headText" class="text-bold">
+                                The World’s <span id="fastestGrowingText">Fastest Growing</span> Crypto Web App
+                            </h1>
+                            <div id="mainHeaderDescriptionText">
+                                Buy and sell 200+ cryptocurrencies with 20+ flat currencies using bank transfers or your
+                                credit/debit card.
+                            </div>
+                            <div id="mainHeaderDescriptionButtons">
+                                <button type="button" class="btn primaryButton">Get Started</button>
+                                <button type="button" class="btn secondaryButton">Download App<i
+                                        class="fa-solid fa-chevron-down ps-2"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6" id="headerImageDiv">
+                        <img src="assets/img/headerimage.png" class="" alt="">
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+    <!-- Live Table Section -->
+    <div class="container shadow" id="liveTable">
+        <div class="row">
+            <div class="col-4">
+                <div class="d-flex justify-content-center ">
+                    <div class="flex-grow-1" id="tableTitle">🔥 Trending</div>
+                    <div class="align-self-end" id="tableMore" style="color: #2F7CF0;">More ></div>
+                </div>
+                <table class="table table-responsive">
+                    <thead>
+                        <tr>
+                            <td>Name</td>
+                            <td>Price</td>
+                            <td>Chart</td>
+                        </tr>
+                    </thead>
+                    <tbody class="">
+                        <tr class="align-middle"></tr>
+                        <td class="align-middle"><img src="/assets/img/cryptocurrency-icons-master/svg/color/btc.svg"
+                                alt="" class="cryptoCurrencyIcon align-center">Bitcoin</td>
+                        <td class="align-middle"><span class="text-success fw-bold profit">+</span>$43,180.13</td>
+                        <td class="align-middle"><img src="/assets/img/chart-green1.png" alt=""></td>
+                        </tr>
+                        <tr class="align-middle">
+                            <td class="align-middle"><img
+                                    src="/assets/img/cryptocurrency-icons-master/svg/color/eth.svg" alt=""
+                                    class="cryptoCurrencyIcon align-top">Ethereum</td>
+                            <td class="align-middle"><span class="text-danger fw-bold loss">-</span>$3,480.65</td>
+                            <td class="align-middle"><img src="/assets/img/chart-red1.png" alt=""></td>
+                        </tr>
+                        <tr class="align-middle">
+                            <td class="align-middle"><img
+                                    src="/assets/img/cryptocurrency-icons-master/svg/color/sol.svg" alt=""
+                                    class="cryptoCurrencyIcon align-top">Solana</td>
+                            <td class="align-middle"><span class="text-success fw-bold profit">+</span>$150,20</td>
+                            <td class="align-middle"><img src="/assets/img/chart-green2.png" alt=""></td>
+                        </tr>
+                        <tr class="align-middle">
+                            <td class="align-middle"><img
+                                    src="/assets/img/cryptocurrency-icons-master/svg/color/doge.svg" alt=""
+                                    class="cryptoCurrencyIcon align-top">Dogecoin</td>
+                            <td class="align-middle"><span class="text-success fw-bold profit">+</span>$0,1572</td>
+                            <td class="align-middle"><img src="/assets/img/chart-green3.png" alt=""></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-4">
+                <div class="d-flex justify-content-center">
+                    <div class="flex-grow-1 " id="tableTitle">🚀 Top Gainers</div>
+                    <div class="align-self-end" id="tableMore" style="color: #2F7CF0;">More ></div>
+                </div>
+                <div class="vl">
+                    <table class="table table-responsive">
+                        <thead>
+                            <tr>
+                                <td>Name</td>
+                                <td>Price</td>
+                                <td>Chart</td>
+                            </tr>
+                        </thead>
+                        <tbody class="">
+                            <tr class="align-middle"></tr>
+                            <td class="align-middle"><img
+                                    src="/assets/img/cryptocurrency-icons-master/svg/color/ada.svg" alt=""
+                                    class="cryptoCurrencyIcon align-center">Cardano</td>
+                            <td class="align-middle"><span class="text-success fw-bold profit">+</span>$0.434</td>
+                            <td class="align-middle"><img src="/assets/img/chart-green4.png" alt=""></td>
+                            </tr>
+                            <tr class="align-middle">
+                                <td class="align-middle"><img
+                                        src="/assets/img/cryptocurrency-icons-master/svg/color/ltc.svg" alt=""
+                                        class="cryptoCurrencyIcon align-top">Litecoin</td>
+                                <td class="align-middle"><span class="text-danger fw-bold loss">-</span>$71.80</td>
+                                <td class="align-middle"><img src="/assets/img/chart-green5.png" alt=""></td>
+                            </tr>
+                            <tr class="align-middle">
+                                <td class="align-middle"><img
+                                        src="/assets/img/cryptocurrency-icons-master/svg/color/dot.svg" alt=""
+                                        class="cryptoCurrencyIcon align-top">Polkadot</td>
+                                <td class="align-middle"><span class="text-success fw-bold profit">+</span>$6.2</td>
+                                <td class="align-middle"><img src="/assets/img/chart-green6.png" alt=""></td>
+                            </tr>
+                            <tr class="align-middle">
+                                <td class="align-middle"><img
+                                        src="/assets/img/cryptocurrency-icons-master/svg/color/aave.svg" alt=""
+                                        class="cryptoCurrencyIcon align-top">Aave</td>
+                                <td class="align-middle"><span class="text-success fw-bold profit">+</span>$104.51</td>
+                                <td class="align-middle"><img src="/assets/img/chart-green7.png" alt=""></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="d-flex justify-content-center ">
+                    <div class="flex-grow-1" id="tableTitle">💎 Recently Added</div>
+                    <div class="align-self-end" id="tableMore" style="color: #2F7CF0;">More ></div>
+                </div>
+                <div class="vl">
+                    <table class="table table-responsive">
+                        <thead>
+                            <tr>
+                                <td>Name</td>
+                                <td>Price</td>
+                                <td>Chart</td>
+                            </tr>
+                        </thead>
+                        <tbody class="">
+                            <tr class="align-middle"></tr>
+                            <td class="align-middle"><img
+                                    src="/assets/img/cryptocurrency-icons-master/svg/color/mtl.svg" alt=""
+                                    class="cryptoCurrencyIcon align-center">Metal</td>
+                            <td class="align-middle"><span class="text-success fw-bold profit">+</span>$0.004</td>
+                            <td class="align-middle"><img src="/assets/img/chart-red2.png" alt=""></td>
+                            </tr>
+                            <tr class="align-middle">
+                                <td class="align-middle"><img
+                                        src="/assets/img/cryptocurrency-icons-master/svg/color/matic.svg" alt=""
+                                        class="cryptoCurrencyIcon align-top">Polygon</td>
+                                <td class="align-middle"><span class="text-danger fw-bold loss">-</span>$0.9</td>
+                                <td class="align-middle"><img src="/assets/img/chart-red3.png" alt=""></td>
+                            </tr>
+                            <tr class="align-middle">
+                                <td class="align-middle"><img
+                                        src="/assets/img/cryptocurrency-icons-master/svg/color/plr.svg" alt=""
+                                        class="cryptoCurrencyIcon align-top">Pillar</td>
+                                <td class="align-middle"><span class="text-success fw-bold profit">+</span>$0.0009</td>
+                                <td class="align-middle"><img src="/assets/img/chart-green8.png" alt=""></td>
+                            </tr>
+                            <tr class="align-middle">
+                                <td class="align-middle"><img
+                                        src="/assets/img/cryptocurrency-icons-master/svg/color/rvn.svg" alt=""
+                                        class="cryptoCurrencyIcon align-top">Ravencoin</td>
+                                <td class="align-middle"><span class="text-success fw-bold profit">+</span>$0,874</td>
+                                <td class="align-middle"><img src="/assets/img/chart-green9.png" alt=""></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
-    </header>
+    </div>
 
-    <script>
+    <!-- CryptoCurrency Buy Section -->
+    <div class="container" id="buyCoinContainer">
+        <div class="row">
+            <div class="col-5">
+                <div class="" id="buyCoinContainerHeader">
+                    Buy & trade on the
+                    original crypto exchange.
+                </div>
+                <div id="buyCoinContainerDescription">
+                    Buy now and get 40% extra bonus Minimum pre-sale amount 25 Crypto Coin. We accept BTC
+                    crypto-currency
+                </div>
+                <div class="row buyCoinContainerInputs">
+                    <div class="col-7">
+                        <div class="input-group mb-3" >
+                            <span class="input-group-text" id="inputGroup-sizing-default">Amount</span>
+                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                          </div>
+                    </div>
+                    <div class="col-5">
+                        <div class="input-group mb-3 align-middle">
+                            <button type="button" class="btn secondaryButton align-self-end buttonWidthTwo"><img
+                                    src="/assets/img/cryptocurrency-icons-master/svg/color/usd.svg" alt=""
+                                    class="cryptoCurrencyIcon align-self-end"><span class="align-self-end"> USD<i
+                                        class="fa-solid fa-chevron-down ps-2 align-self-end"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row buyCoinContainerInputs">
+                    <div class="col-7">
+                        <div class="input-group mb-3 align-middle">
+                            <button type="button" class="btn secondaryButton align-self-end buttonWidthOne"><img
+                                    src="/assets/img/cryptocurrency-icons-master/svg/color/usd.svg" alt=""
+                                    class="cryptoCurrencyIcon align-self-end"><span class="align-self-end"> USD<i
+                                        class="fa-solid fa-chevron-down ps-2 align-self-end"></i></button>
+                        </div>
+                    </div>
+                    <div class="col-5 align-middle">
+                        <div class="input-group mb-3 align-middle">
+                            <button type="button" class="btn secondaryButton align-self-end buttonWidthTwo"><img
+                                    src="/assets/img/cryptocurrency-icons-master/svg/color/btc.svg" alt=""
+                                    class="cryptoCurrencyIcon align-self-end"><span class="align-self-end"> BTC<i
+                                        class="fa-solid fa-chevron-down ps-2 align-self-end"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" id="buyCoinContainerButton">
+                    <div class="col-12">
+                        <button type="button" class="btn primaryButton w-100">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-1"></div>
+            <div class="col-5" id="buyCoinContainerBigImage">
+                <img src="/assets/img/buyImage.png" alt="">
+            </div>
+        </div>
+    </div>
 
-    </script>
+
+
+    <script src="https://kit.fontawesome.com/175cfcaab6.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>

@@ -4,15 +4,31 @@
   font-weight: 400;
   src: local("Poppins"), url("../../assets/fonts/poppins-regular-webfont.woff2") format("woff2"), url("../../assets/fonts/poppins-regular-webfont.woff") format("woff");
 }
+@font-face {
+  font-family: "Poppins";
+  font-weight: 700;
+  src: local("Poppins Bold"), url("../../assets/fonts/poppins-bold-webfont.woff2") format("woff2"), url("../../assets/fonts/poppins-bold-webfont.woff") format("woff");
+}
 .font-poppins {
   font-family: "Poppins", sans-serif;
 }
 
+.text-bold {
+  font-weight: 700;
+}
+
+#headerBackgroundDiv {
+  background: linear-gradient(169.4deg, rgba(57, 132, 244, 0.04) -6.01%, rgba(12, 211, 255, 0.04) 36.87%, rgba(47, 124, 240, 0.04) 78.04%, rgba(14, 101, 232, 0.3) 103.77%);
+}
+
+#navbarMainPage {
+  opacity: 1;
+  font-family: Poppins;
+}
 #navbarMainPage .nav-link {
   padding-left: 3rem;
   font-size: 1.125rem;
   color: #222222;
-  font-family: Poppins;
 }
 #navbarMainPage button {
   margin-left: 1.25rem;
@@ -28,13 +44,184 @@
 #navbarMainPage .primaryButton {
   background: linear-gradient(90deg, rgb(70, 142, 249) 0%, rgb(12, 102, 238) 100%);
   color: white;
+  font-weight: 500;
 }
 #navbarMainPage .secondaryButton {
   background: white;
-  color: linear-gradient(90deg, rgb(70, 142, 249) 0%, rgb(12, 102, 238) 100%);
+  background: -webkit-linear-gradient(#468ef9, #0c66ee);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   border: 1px solid #0c66ee;
+  font-weight: 500;
 }
 
-img {
-  width: 100%;
+#mainHeader {
+  font-family: Poppins;
+}
+#mainHeader .primaryButton {
+  background: linear-gradient(90deg, rgb(70, 142, 249) 0%, rgb(12, 102, 238) 100%);
+  color: white;
+  margin-right: 1.125rem;
+  font-weight: 500;
+}
+#mainHeader .secondaryButton {
+  background: white;
+  background: -webkit-linear-gradient(#468ef9, #0c66ee);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 1px solid #0c66ee;
+  font-weight: 500;
+  width: 210px;
+}
+#mainHeader #signUpText {
+  font-size: 1.25rem;
+  background: -webkit-linear-gradient(#468ef9, #0c66ee);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 30px;
+  padding-bottom: 1.125rem;
+}
+#mainHeader #headText {
+  font-size: 4.25rem;
+  color: #222222;
+  line-height: 82px;
+  padding-bottom: 1.125rem;
+}
+#mainHeader button {
+  border-radius: 40px;
+  width: 180px;
+  height: 72px;
+}
+#mainHeader #mainHeaderDescriptionText {
+  padding-bottom: 2rem;
+}
+#mainHeader #fastestGrowingText {
+  background: -webkit-linear-gradient(#468ef9, #0c66ee);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#mainHeader #headerImageDiv {
+  margin-left: -2rem;
+}
+#mainHeader img {
+  width: 130%;
+}
+
+#liveTable {
+  height: 430px;
+  font-family: Poppins;
+  border-radius: 40px;
+  margin-top: -3rem;
+  background-color: rgb(255, 255, 255);
+}
+#liveTable #tableTitle {
+  padding-top: 2rem;
+  padding-left: 1.5rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 30px;
+}
+#liveTable #tableMore {
+  padding-top: 2rem;
+  font-weight: 500;
+  line-height: 22.5px;
+}
+#liveTable table {
+  margin-left: 0.75rem;
+  margin-top: 2rem;
+}
+#liveTable table thead td {
+  color: #666666;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22.5px;
+  letter-spacing: -0.01em;
+  text-align: left;
+}
+#liveTable table tbody td {
+  font-family: Poppins;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: left;
+}
+#liveTable .cryptoCurrencyIcon {
+  width: 25px;
+  height: 25px;
+  gap: 0px;
+  opacity: 0px;
+  padding-right: 0.5rem;
+}
+#liveTable .profit {
+  padding-right: 0.5rem;
+}
+#liveTable .loss {
+  padding-right: 0.5rem;
+}
+#liveTable img {
+  width: 110px;
+  height: 40px;
+}
+#liveTable .vl {
+  border-left: 1px solid #eaeaea;
+}
+
+#buyCoinContainer {
+  font-family: Poppins;
+  padding-top: 8rem;
+  padding-left: 5rem;
+}
+#buyCoinContainer .primaryButton {
+  background: linear-gradient(90deg, rgb(70, 142, 249) 0%, rgb(12, 102, 238) 100%);
+  color: white;
+  font-weight: 500;
+  height: 64px;
+  border-radius: 40px;
+}
+#buyCoinContainer .secondaryButton {
+  background: white;
+  background: -webkit-linear-gradient(#468ef9, #0c66ee);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 1px solid #0c66ee;
+  font-weight: 500;
+  border-radius: 22px;
+  height: 80px;
+}
+#buyCoinContainer .buttonWidthOne {
+  width: 336px;
+}
+#buyCoinContainer .buttonWidthTwo {
+  width: 210px;
+}
+#buyCoinContainer input {
+  border-color: linear-gradient(90deg, rgb(70, 142, 249) 0%, rgb(12, 102, 238) 100%);
+}
+#buyCoinContainer #buyCoinContainerHeader {
+  padding-top: 5rem;
+  font-size: 2.25rem;
+  font-weight: 600;
+  line-height: 52px;
+  text-align: left;
+  color: #222222;
+}
+#buyCoinContainer #buyCoinContainerDescription {
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: #666666;
+  padding-top: 2rem;
+}
+#buyCoinContainer #buyCoinContainerInputs {
+  padding-top: 2rem;
+}
+#buyCoinContainer #buyCoinContainerButton {
+  padding-top: 1rem;
+}
+#buyCoinContainer #buyCoinContainerBigImage img {
+  width: 105%;
+}
+#buyCoinContainer .buyCoinContainerInputs img {
+  width: 30px;
 }/*# sourceMappingURL=main.css.map */

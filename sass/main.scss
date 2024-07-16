@@ -2,12 +2,23 @@
 @use "fonts/fonts";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
+#headerBackgroundDiv {
+  background: linear-gradient(
+    169.4deg,
+    rgba(57, 132, 244, 0.04) -6.01%,
+    rgba(12, 211, 255, 0.04) 36.87%,
+    rgba(47, 124, 240, 0.04) 78.04%,
+    rgba(14, 101, 232, 0.3) 103.77%
+  );
+}
+
 #navbarMainPage {
+  opacity: 1;
+  font-family: Poppins;
   .nav-link {
     padding-left: 3rem;
     font-size: 1.125rem;
     color: $thirdColor;
-    font-family: Poppins;
   }
   button {
     margin-left: 1.25rem;
@@ -23,14 +34,199 @@
   .primaryButton {
     background: $firstColor;
     color: $secondColor;
+    font-weight: 500;
   }
   .secondaryButton {
     background: $secondColor;
-    color: $firstColor;
+    background: -webkit-linear-gradient(#468ef9, #0c66ee);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     border: 1px solid #0c66ee;
+    font-weight: 500;
   }
 }
 //burayı düzenle
-img {
-    width: 100%;
+
+#mainHeader {
+  font-family: Poppins;
+  .primaryButton {
+    background: $firstColor;
+    color: $secondColor;
+    margin-right: 1.125rem;
+    font-weight: 500;
+  }
+  .secondaryButton {
+    background: $secondColor;
+    background: -webkit-linear-gradient(#468ef9, #0c66ee);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 1px solid #0c66ee;
+    font-weight: 500;
+    width: 210px;
+  }
+
+  #signUpText {
+    font-size: 1.25rem;
+    background: -webkit-linear-gradient(#468ef9, #0c66ee);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 30px;
+    padding-bottom: 1.125rem;
+  }
+
+  #headText {
+    font-size: 4.25rem;
+    color: $thirdColor;
+    line-height: 82px;
+    padding-bottom: 1.125rem;
+  }
+  button {
+    border-radius: 40px;
+    width: 180px;
+    height: 72px;
+  }
+  #mainHeaderDescriptionText {
+    padding-bottom: 2rem;
+  }
+
+  #fastestGrowingText {
+    background: -webkit-linear-gradient(#468ef9, #0c66ee);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  #headerImageDiv {
+    margin-left: -2rem;
+  }
+  img {
+    width: 130%;
+  }
+}
+
+#liveTable {
+  height: 430px;
+  font-family: Poppins;
+  border-radius: 40px;
+  margin-top: -3rem;
+  background-color: rgba(255, 255, 255, 1);
+  #tableTitle {
+    padding-top: 2rem;
+    padding-left: 1.5rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 30px;
+  }
+  #tableMore {
+    padding-top: 2rem;
+    font-weight: 500;
+    line-height: 22.5px;
+  }
+  table {
+    margin-left: 0.75rem;
+    margin-top: 2rem;
+    thead {
+      td {
+        color: $fourthColor;
+        font-family: Poppins;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 22.5px;
+        letter-spacing: -0.01em;
+        text-align: left;
+      }
+    }
+    tbody {
+      td {
+        font-family: Poppins;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: left;
+      }
+    }
+  }
+  .cryptoCurrencyIcon {
+    width: 25px;
+    height: 25px;
+    gap: 0px;
+    opacity: 0px;
+    padding-right: 0.5rem;
+  }
+  .profit {
+    padding-right: 0.5rem;
+  }
+  .loss {
+    padding-right: 0.5rem;
+  }
+  img {
+    width: 110px;
+    height: 40px;
+  }
+
+  .vl {
+    border-left: 1px solid #eaeaea;
+  }
+}
+
+#buyCoinContainer {
+  font-family: Poppins;
+  padding-top: 8rem;
+  padding-left: 5rem;
+  .primaryButton {
+    background: $firstColor;
+    color: $secondColor;
+    font-weight: 500;
+    height: 64px;
+    border-radius: 40px;
+  }
+  .secondaryButton {
+    background: $secondColor;
+    background: -webkit-linear-gradient(#468ef9, #0c66ee);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 1px solid #0c66ee;
+    font-weight: 500;
+
+    border-radius: 22px;
+    height: 80px;
+  }
+  .buttonWidthOne {
+    width: 336px;
+  }
+  .buttonWidthTwo {
+    width: 210px;
+  }
+  input {
+    border-color: $firstColor;
+  }
+  #buyCoinContainerHeader {
+    padding-top: 5rem;
+    font-size: 2.25rem;
+    font-weight: 600;
+    line-height: 52px;
+    text-align: left;
+    color: #222222;
+  }
+  #buyCoinContainerDescription {
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #666666;
+    padding-top: 2rem;
+  }
+  #buyCoinContainerInputs {
+    padding-top: 2rem;
+  }
+  #buyCoinContainerButton {
+    padding-top: 1rem;
+  }
+  #buyCoinContainerBigImage {
+    img {
+      width: 105%;
+    }
+  }
+  .buyCoinContainerInputs {
+    img {
+      width: 30px;
+    }
+  }
 }
