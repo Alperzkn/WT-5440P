@@ -1,0 +1,36 @@
+@use "abstract" as *;
+@use "fonts/fonts";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+#navbarMainPage {
+  .nav-link {
+    padding-left: 3rem;
+    font-size: 1.125rem;
+    color: $thirdColor;
+    font-family: Poppins;
+  }
+  button {
+    margin-left: 1.25rem;
+    border-radius: 40px;
+    width: 165px;
+    height: 64px;
+  }
+  .container-fluid {
+    padding-left: 145px;
+    padding-right: 145px;
+    padding-top: 2.8125rem;
+  }
+  .primaryButton {
+    background: $firstColor;
+    color: $secondColor;
+  }
+  .secondaryButton {
+    background: $secondColor;
+    color: $firstColor;
+    border: 1px solid #0c66ee;
+  }
+}
+//burayı düzenle
+img {
+    width: 100%;
+}

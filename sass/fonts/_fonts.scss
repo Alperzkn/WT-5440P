@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "Poppins";
+  font-weight: 400;
+  src: local("Poppins"),
+    url("../../assets/fonts/poppins-regular-webfont.woff2") format("woff2"),
+    url("../../assets/fonts/poppins-regular-webfont.woff") format("woff");
+}
+
+.font-poppins {
+  font-family: "Poppins", sans-serif;
+}
