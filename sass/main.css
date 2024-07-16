@@ -224,4 +224,156 @@
 }
 #buyCoinContainer .buyCoinContainerInputs img {
   width: 30px;
+}
+
+#partnersSection {
+  margin-top: 5rem;
+  height: 399px;
+  border-radius: 40px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.7) -9.25%, rgba(255, 255, 255, 0.6) -9.25%, rgba(244, 249, 255, 0.7) 108.74%);
+}
+#partnersSection #trustedPartners {
+  font-family: Poppins;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 42px;
+  text-align: center;
+}
+#partnersSection #trustedPartnersText {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+}
+
+#creditCardSection img {
+  width: 100%;
+}
+#creditCardSection #creditCardsHeader {
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 52px;
+  text-align: left;
+}
+#creditCardSection #nefa {
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 52px;
+  text-align: left;
+  background: linear-gradient(169.4deg, #3984f4 -6.01%, #0cd3ff 36.87%, #2f7cf0 78.04%, #0e65e8 103.77%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#creditCardSection #creditCardsText {
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22.5px;
+  text-align: left;
+}
+#creditCardSection .checkMark {
+  width: 20px;
+}
+
+#tradingTool {
+  margin-top: 5rem;
+  height: 756px;
+  border-radius: 40px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.7) -9.25%, rgba(255, 255, 255, 0.6) -9.25%, rgba(244, 249, 255, 0.7) 108.74%);
+}
+#tradingTool img {
+  width: 110%;
+}
+#tradingTool .tradingToolHeader {
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 54px;
+  margin-top: 5rem;
+  padding-left: 3rem;
+  margin-bottom: 2rem;
+}
+#tradingTool .tradingToolSmallHeader {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  margin-top: 1rem;
+  padding-left: 3rem;
+}
+#tradingTool #tools {
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 54px;
+  text-align: left;
+  background: linear-gradient(169.4deg, #3984f4 -6.01%, #0cd3ff 36.87%, #2f7cf0 78.04%, #0e65e8 103.77%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#tradingTool .tradingToolText {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 1rem;
+  padding-left: 3rem;
+  color: rgb(102, 102, 102);
+}
+#tradingTool #getStarted {
+  font-family: Poppins;
+  height: 72px;
+  font-weight: 500;
+  width: 210px;
+  border-radius: 40px;
+  background: linear-gradient(#fff, #fff) padding-box, linear-gradient(0deg, #00f, #00e8ff) border-box;
+  border: 2px solid transparent;
+  border-image-source: linear-gradient(169.4deg, #3984f4 -6.01%, #0cd3ff 36.87%, #2f7cf0 78.04%, #0e65e8 103.77%);
+  margin-top: 2rem;
+  margin-left: 3rem;
+}
+#tradingTool #learnMore {
+  color: rgb(47, 124, 240);
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  padding-top: 1.25rem;
+  margin-top: 2rem;
+  margin-left: 3rem;
+}
+
+#securitySection #securityImage img {
+  width: 105%;
+}
+#securitySection #securityTextArea {
+  padding-left: 4rem;
+  padding-right: 1rem;
+}
+#securitySection #securityTextArea .checkmark {
+  width: 20px;
+}
+#securitySection #securityHeader {
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 54px;
+}
+#securitySection .securitySmallHeader {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  margin-top: 1rem;
+}
+#securitySection .securityText {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 1rem;
+  color: rgb(102, 102, 102);
 }/*# sourceMappingURL=main.css.map */
