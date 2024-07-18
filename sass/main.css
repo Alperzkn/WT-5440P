@@ -221,10 +221,45 @@
   padding-top: 1rem;
 }
 #buyCoinContainer #buyCoinContainerBigImage img {
-  width: 105%;
+  width: 120%;
 }
 #buyCoinContainer .buyCoinContainerInputs img {
   width: 30px;
+}
+#buyCoinContainer #amountDiv {
+  background: linear-gradient(#fff, #fff) padding-box, linear-gradient(0deg, #00f, #00e8ff) border-box;
+  border-image-source: linear-gradient(169.4deg, #3984f4 -6.01%, #0cd3ff 36.87%, #2f7cf0 78.04%, #0e65e8 103.77%);
+  width: 336px;
+  height: 80px;
+  top: 1885px;
+  left: 233px;
+  gap: 0px;
+  border-radius: 22px;
+  border: 1px solid transparent;
+}
+#buyCoinContainer #amountDiv #amountLabel {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  border-right: 1px solid transparent;
+  background: linear-gradient(#fff, #fff) padding-box, linear-gradient(0deg, #468ef9, #0c66ee) border-box;
+  width: 10rem;
+  padding-left: 2rem;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+}
+#buyCoinContainer #amountDiv #amountInput {
+  border: none;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  text-align: right;
+  width: 100%;
+}
+#buyCoinContainer #amountDiv input:focus {
+  outline: none;
 }
 
 #partnersSection {
